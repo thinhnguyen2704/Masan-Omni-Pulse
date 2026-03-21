@@ -2,7 +2,7 @@
 ## Overview
 A multi-agent system that bridges the gap between Retail Demand (WinMart) and Supply Chain Logistics (Supra).
 
-## Technical Architecture (The Principal's Blueprint)
+## Technical Architecture
 Demand Forecaster Agent (Vision-Language): Use a Vision-Language Model (VLM) or time-series agent to analyze "Store Shelf Images" (simulated) and historical sales data to detect stockouts or trend shifts (e.g., Tet holiday surges).
 
 Supra Logistics Optimizer Agent: A tool-calling agent that calculates the "Cost-to-Serve." It takes the demand signal and uses a routing API (like OSRM or Google Maps) to suggest optimal delivery windows from the nearest warehouse cluster.
